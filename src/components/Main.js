@@ -19,11 +19,6 @@ class Main extends PureComponent{
     }
 
     componentDidMount(){
-        // fetch('https://rickandmortyapi.com/api/character/')
-        //     .then(data => data.json())
-        //     .then(json => {
-        //         this.setState({characters:json.results,nextUrl:json.info.next,prevUrl:json.info.prev,loading:false})
-        //     })
         this.getUserFromApi();
     }
 
